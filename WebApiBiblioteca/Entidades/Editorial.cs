@@ -7,7 +7,6 @@ namespace WebApiBiblioteca.Entidades
         public int Id { get; set; }
 
         [StringLength(50)]
-        [Required]
         public string Nombre { get; set; }
 
         public ICollection<Libro> Libros { get; set; }
