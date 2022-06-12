@@ -20,6 +20,8 @@ namespace WebApiBiblioteca
 
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
+
+            //Para rellenar las tablas con datos
             SeedData.Seed(modelBuilder);
         }
 
